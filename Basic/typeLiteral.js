@@ -1,3 +1,4 @@
+/* NOTE : Apply values rather than apply types to a variable or parameters */
 var data = "Alex";
 // data=54;   you can't assign other value to variable.
 data = 23;
