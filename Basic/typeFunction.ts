@@ -4,3 +4,11 @@ function demo(a:string,b:number){
 }
 
 demo("Vinod", 78);
+
+function circle(r:number):number{
+    let pi = 3.14;
+    let Circumference = 2 * pi * r;
+    return Circumference;
+}
+
+console.log(circle(5));
