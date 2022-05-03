@@ -12,10 +12,11 @@
 let data:any;
 data=10;
 data="Alex";
+data=true;
 
 let item:string;
 item=data;    // Here another variable assign to item there is error found because "any" type switch of the power of typeScript. but in unknown case it is not happened. let's see...
-
+console.log("item", item);    // here item value is "true". because of type is "any".
 
 let info:unknown;
 info=23;
