@@ -1,5 +1,6 @@
+"use strict";
 /* NOTE : Apply values rather than apply types to a variable or parameters */
-var data = "Alex";
+let data = "Alex";
 // data=54;   you can't assign other value to variable.
 data = 23;
 // And also u can use below technique;

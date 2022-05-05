@@ -1,3 +1,4 @@
+"use strict";
 /* NOTE: never type called when our function is break.
 example is below. */
 function apiError(msg, code) {

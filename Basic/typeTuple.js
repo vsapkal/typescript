@@ -1,5 +1,11 @@
-var tuple = ["Alex", 23];
-tuple[0].push("Vinod");
+"use strict";
+/*
+    difference between Tuple and Array.
+    "Tuple" : In tuple you can mention each and every index value variable type .
+    "Array" : In array you have to declare variable type to whole Array.
+ */
+let tuple = ["Alex", 23];
+tuple.push("Vinod");
 tuple.push(34);
 tuple.push(true);
 console.log(tuple);

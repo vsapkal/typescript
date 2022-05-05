@@ -1,6 +1,7 @@
-var num = 10.34;
-var str = "Alex";
-var bol = false;
+"use strict";
+const num = 10.34;
+const str = "Alex";
+const bol = false;
 console.warn(num);
 console.warn(str);
 console.warn(bol);
