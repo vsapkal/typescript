@@ -1,6 +1,6 @@
 /* Union type is describes a value that can be one of several types */
 
-//Union type is mentioned below.
+//Union type is mentioned below. Union denote via '|'  vertical line. 
 
 let data: string | number = 30;
 

@@ -1,7 +1,6 @@
-"use strict";
 /* Union type is describes a value that can be one of several types */
-//Union type is mentioned below.
-let data = 30;
+//Union type is mentioned below. Union denote via '|'  vertical line. 
+var data = 30;
 // When use union
 function combine(a, b) {
     if (typeof a === "number" && typeof b === "number") {
