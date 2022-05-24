@@ -3,7 +3,7 @@ interface userType {
     name:string,
     age:number,
     email:string
-    getName:()=>void
+    getName:()=>string
 }
 
 let users:userType={
